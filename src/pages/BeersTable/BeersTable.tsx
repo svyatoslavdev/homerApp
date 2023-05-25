@@ -11,7 +11,7 @@ import { TablePagination, TableSortLabel } from '@mui/material';
 import { useTable } from 'hooks/useTable';
 import { BeerTableRow } from './components/BeerTableRow';
 import { BeerTableRowPlaceholder } from './components/BeerTableRowPlaceholder';
-import { GetParameterPopups } from 'router/popupsRoutes';
+import { GetParameterPopups } from 'hocs/GetParameterPopups';
 
 const PER_PAGE_OPTIONS = [5, 10, 25];
 
